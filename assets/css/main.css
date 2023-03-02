@@ -1,4 +1,15 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+} */
+html {
+  scroll-behavior: smooth;
+}
+
 body{
+  /* width:100%; */
   margin: 0;
   background: #01498f;
 }
@@ -7,7 +18,31 @@ img{
 }
 
 
+/*  under construction */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 
+body {
+  background: #EEEEF4;
+  color:#999;
+  font-family:Roboto;
+}
+
+h1{
+  font-weight:100;
+  font-size:27pt;
+  color:#E43;
+}
+
+p{font-weight:300;}
+
+.warning-content {
+	position:absolute;
+  top:25%;
+  width:100%;
+  height:300px;
+  text-align:center;
+  margin:0;
+}
 
 /* Magnific Popup CSS */
 .mfp-bg {
@@ -51,13 +86,17 @@ img{
   display: none; }
 
 .mfp-content {
-  background: $white;
+  background: #fff;
   position: relative;
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1045; }
+  z-index: 1045;
+  height: 300px;
+  width: 60% !important;
+  color: #000;
+}
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
